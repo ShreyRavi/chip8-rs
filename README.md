@@ -2,7 +2,7 @@
 
 A CHIP-8 and Super-CHIP (SCHIP) emulator written in Rust, compiled to WebAssembly, running in the browser via a Svelte frontend.
 
-**[Play it live!](https://shreyravi.github.io/chip8-rs/)**
+**[Play it live:](https://shreyravi.github.io/chip8-rs/)**
 
 ---
 
@@ -185,7 +185,7 @@ The mode is selected per-ROM at load time.
 
 ### Animation loop
 
-The frontend runs `requestAnimationFrame` and executes `cyclesPerFrame` CPU cycles per frame. Default is 10 cycles/frame (~600 Hz at 60 fps), close to the original COSMAC VIP ~500 Hz. The speed dial adjusts this from 1 to 30 live, covering roughly 60 Hz to 1800 Hz. Timers always tick once per frame at 60 Hz regardless of CPU speed.
+The frontend runs `requestAnimationFrame` and executes `cyclesPerFrame` CPU cycles per frame. Default is 10 cycles/frame (~600 Hz at 60 fps), close to the original COSMAC VIP ~500 Hz. The speed dial adjusts this from 1 to 30 live, covering roughly 60 Hz to 1800 Hz. Timers always tick once per frame at 60 Hz regardless of CPU speed - you can adjust it mid game-play!
 
 ---
 
