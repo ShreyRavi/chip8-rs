@@ -1,0 +1,37 @@
+[
+  {
+    "name": "CHIP-8 Test",
+    "file": "Test.ch8",
+    "mode": "chip8",
+    "description": "Draws TEST on screen. A simple bootstrap demo.",
+    "instructions": "Demo only. No controls."
+  },
+  {
+    "name": "Pong",
+    "file": "Pong.ch8",
+    "mode": "chip8",
+    "description": "Classic two-player Pong — first to 9 wins.",
+    "instructions": "Player 1: 1 = up, Q = down\nPlayer 2: 4 = up, R = down"
+  },
+  {
+    "name": "Tetris",
+    "file": "Tetris.ch8",
+    "mode": "chip8",
+    "description": "Classic Tetris falling-block puzzle.",
+    "instructions": "W = rotate, E = move right, Q = move left, A = drop"
+  },
+  {
+    "name": "Brix",
+    "file": "Brix.ch8",
+    "mode": "chip8",
+    "description": "Breakout-style brick breaker.",
+    "instructions": "Q = move left, E = move right"
+  },
+  {
+    "name": "Space Invaders",
+    "file": "Space Invaders.ch8",
+    "mode": "chip8",
+    "description": "Defend Earth from descending alien invaders.",
+    "instructions": "Q = move left, E = move right, W = fire"
+  }
+]
